@@ -29,8 +29,8 @@ export default function Main() {
       initialRegion={{
         latitude: coords.latitude, // Define a latitude inicial
         longitude: coords.longitude, // Define a longitude inicial
-        latitudeDelta: 0.02, // Define a variação de latitude
-        longitudeDelta: 0.02, // Define a variação de longitude
+        latitudeDelta: 0.01, // Define a variação de latitude
+        longitudeDelta: 0.01, // Define a variação de longitude
       }}
       showsUserLocation={true} // Permite mostrar a localização do usuário no mapa
     >
